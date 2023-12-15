@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;500&family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Rachel Li - Portfolio</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#home">Rachel Li</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="Resume.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+        <section id="home">
+            <div id="home-background"></div>
+        </section>
+
+        <section id="about">
+            <div class="row">
+                <div class="col-md-2" >
+                    <img src="images/rachel.jpg" style="width: 10rem;">
+                </div>
+                <div class="col-md-10">
+                    <h3>&#8669; Hello! I'm Rachel Li, an aspiring event producer with a focus on marketing. I'm currently working as an Events and Marketing Assistant at <a href="https://tritonfest.ucsd.edu/" target="_blank">UC San Diego's Campus Events Office.</a> I also help people reserve event spaces at <a href="https://universitycenters.ucsd.edu/events-and-reservations/index.html" target="_blank">University Centers.</a> </h3>
+                </div>
+            </div>
+        </section>
+ 
+
+        <section id="project">
+            <h2 class="mt-4">Current Work:</h2>
+            <div class="row">
+                <!-- first project -->
+                <div class="card" class="mb-4 col-md-6" style="width: 30rem;" onclick="navigateToTF()">
+                    <img class="card-img-top" src="images/TritonFest_Logo_v2_2.png" alt="Triton Fest Logo">
+                    <div class="card-body">
+                        <h3 class="card-title">Campus Events Office</h3>
+                        <p class="card-subtitle">Marketing, Event Production</p>
+                        <p></p>
+                        <p class="card-text">Manage all marketing channels for Triton Fest, a fun late night event series open to all UC San Diego students. Create unique events following trendy topics.</p>
+                    </div>
+                </div>
+
+                
+
+                <!-- second project -->
+                <div class="card" class=" mb-4 col-md-6" style="width: 30rem;" onclick="navigateToUCEN()">
+                    <img class="card-img-top" src="images/DD516835-B17D-4C58-B6EC-C7158E7E2F60.JPEG" alt="University Centers Logo">
+                    <div class="card-body">
+                        <h3 class="card-title">University Centers</h3>
+                        <p class="card-subtitle">Event Logistics</p>
+                        <p></p>
+                        <p class="card-text">Oversee department and student organization reservations for the heart and soul of campus, University Centers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="portfolio.js"></script>
+</body>
+</html>
+
+

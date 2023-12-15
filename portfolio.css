@@ -1,0 +1,118 @@
+body {
+    font-family: 'Afacad', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    margin-bottom: 5px;
+  }
+  
+  
+h1 {font-family: 'Afacad', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    }
+
+h2 {font-family: 'Afacad', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+    }
+
+h3 {font-family: 'Afacad', sans-serif;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    }
+
+p {font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    }
+
+li{font-family: 'Afacad', sans-serif;
+    font-size: 1.25rem;
+    line-height: 2;}
+
+
+/* navigation bar */
+.navbar-brand {
+    font-family: 'Afacad', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-left: 20px;
+    }
+
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Afacad', sans-serif;
+    font-size: 1.2rem;}
+
+
+/* cards */
+.card {padding: 10px;
+margin-bottom: 10px;}
+
+.card:hover {
+    cursor: pointer;
+}
+
+/* home */
+
+#home {
+    position: relative;
+    height: 50vh;
+    background-color: grey;
+
+}
+
+#home-background {
+    background: url('images/event.jpg') center bottom/cover fixed;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#about {
+padding:50px;
+background-color: black;
+color:white;
+}
+
+#project {
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* triton fest */
+.impact {padding: 100px;
+background-color: grey;
+color:white;}
+    
+.tfoverview {padding: 100px;
+    }
+    
+#tfInfo {padding-top:50px;}
+
+
+
+/* ucen */
+.ucenoverview {padding: 100px;
+}
+
+#ucenInfo {padding-top:50px;}
+
+.ucentasks {padding: 100px;
+    background-color: grey;
+    color:white;}
+
+    
